@@ -7,22 +7,19 @@
     <style>
       body {
         background-color: #4980d3;
+        background-image: linear-gradient(136.1deg, rgba(255, 212, 4, 1) 5.8%, rgba(255, 104, 8, 1) 91.1%);
       }
       .container {
         margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
       }
       .child {
-        width: 900px;
-        height: 520px;
-        background-color: rgba(255, 255, 255, 0.153);
-        border-radius: 8px;
-        box-shadow: 0px 0px 5px rgb(58, 58, 58);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 960px;
+        height: 540px;
+        box-shadow: 0px 0px 10px rgb(58, 58, 58);
       }
     </style>
   </head>
@@ -30,7 +27,18 @@
     <div class="container">
       <div class="child">
         <div>
-          <video controls src="/video" id="video-stream" poster="/video/start.jpeg" width="900"></video>
+          <video
+            controls
+            preload="auto"
+            src="/video"
+            id="video-stream"
+            poster="waiting.jpeg"
+            width="960"
+            height="540"
+          ></video>
+        </div>
+        <div>
+          <h3>Stream</h3>
         </div>
       </div>
     </div>

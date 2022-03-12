@@ -12,7 +12,9 @@
 # Icon must end with two \r
 Icon
 
-public/video/
+public/video/*.mp4
+public/images/
+testmovies/
 
 # Thumbnails
 ._*
