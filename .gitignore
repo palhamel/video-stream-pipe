@@ -10,7 +10,9 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
+public/video/
 
 # Thumbnails
 ._*
