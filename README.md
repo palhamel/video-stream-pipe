@@ -7,6 +7,8 @@
 
 
 
+```
 > install: npm install
 > run dev: npm run start:dev
 > start: npm start
+```
